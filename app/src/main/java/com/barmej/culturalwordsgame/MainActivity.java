@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeImage(View view) {
         random = new Random();
-        index = random.nextInt(13);
+        index = random.nextInt(arryaImages.length);
         imageView.setImageDrawable(getDrawable(arryaImages[index]));
     }
 
